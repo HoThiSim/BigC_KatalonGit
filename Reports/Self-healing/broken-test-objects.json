@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/RegisterScript/Page_Gi lun lun thp  Big C Supercenter/a_Thao",
+      "brokenLocator": "//a[contains(text(),\u0027Thao\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027!\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/RegisterScript/Page_Gi lun lun thp  Big C Supercenter/a_Thao_neighbor.png"
+    }
+  ]
 }
