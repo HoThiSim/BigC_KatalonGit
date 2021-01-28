@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.bigc.vn/')
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_NG NHP'))
 

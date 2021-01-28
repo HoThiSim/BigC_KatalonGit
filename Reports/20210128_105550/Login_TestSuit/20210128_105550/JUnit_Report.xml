@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_TestSuit" time="28.142" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="Login_TestSuit" tests="2" failures="0" errors="0" time="28.142" skips="0" timestamp="2021-01-28 10:55:53" hostname="PNV - SGH649TX82.kms.com.vn" id="Test Suites/Login_TestSuit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PNV\\git\\BigC_KatalonGit\\BigC_KatalonGit\\BigC_KatalonGit\\BigC_KatalonGit\\Reports\\20210128_105550\\Login_TestSuit\\20210128_105550"/>
+         <property name="logFiles" value="C:\\Users\\PNV\\git\\BigC_KatalonGit\\BigC_KatalonGit\\BigC_KatalonGit\\BigC_KatalonGit\\Reports\\20210128_105550\\Login_TestSuit\\20210128_105550\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PNV - SGH649TX82.kms.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.104"/>
+         <property name="hostAddress" value="192.168.182.15"/>
+         <property name="sessionId" value="65193e52506eca1e86f99463fc30db65"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TestLogin" time="14.168" classname="Test Cases/Login/TestLogin" status="PASSED">
+         <system-out><![CDATA[2021-01-28 10:55:54 - [TEST_CASE][PASSED] - Test Cases/Login/TestLogin: Test Cases/Login/TestLogin
+
+2021-01-28 10:55:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-28 10:55:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-28 10:55:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-28 10:55:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-28 10:55:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigc.vn/"): Navigate to 'https://www.bigc.vn/' successfully
+
+2021-01-28 10:56:01 - [MESSAGE][PASSED] - Navigate to 'https://www.bigc.vn/' successfully
+
+2021-01-28 10:56:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-01-28 10:56:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-28 10:56:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_NG NHP")): Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_NG NHP' is clicked on
+
+2021-01-28 10:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_NG NHP' is clicked on
+
+2021-01-28 10:56:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_email"), username): Text 'sim.ho21@student.passerellesnumeriques.org ' is set on object 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_email'
+
+2021-01-28 10:56:03 - [MESSAGE][PASSED] - Text 'sim.ho21@student.passerellesnumeriques.org ' is set on object 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_email'
+
+2021-01-28 10:56:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_password"), password): Text ****** has been set on object 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_password'
+
+2021-01-28 10:56:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_password'
+
+2021-01-28 10:56:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/button_NG NHP")): Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/button_NG NHP' is clicked on
+
+2021-01-28 10:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/button_NG NHP' is clicked on
+
+2021-01-28 10:56:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_Tin tc Big C")): Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_Tin tc Big C' is clicked on
+
+2021-01-28 10:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_Tin tc Big C' is clicked on
+
+2021-01-28 10:56:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-28 10:56:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TestLogin" time="13.054" classname="Test Cases/Login/TestLogin" status="PASSED">
+         <system-out><![CDATA[2021-01-28 10:56:08 - [TEST_CASE][PASSED] - Test Cases/Login/TestLogin: Test Cases/Login/TestLogin
+
+2021-01-28 10:56:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-28 10:56:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-28 10:56:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-28 10:56:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-28 10:56:11 - [TEST_STEP][PASSED] - navigateToUrl("https://www.bigc.vn/"): Navigate to 'https://www.bigc.vn/' successfully
+
+2021-01-28 10:56:14 - [MESSAGE][PASSED] - Navigate to 'https://www.bigc.vn/' successfully
+
+2021-01-28 10:56:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-01-28 10:56:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-28 10:56:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_NG NHP")): Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_NG NHP' is clicked on
+
+2021-01-28 10:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_NG NHP' is clicked on
+
+2021-01-28 10:56:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_email"), username): Text 'thao.nguyen21@student.passerellesnumeriques.org ' is set on object 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_email'
+
+2021-01-28 10:56:16 - [MESSAGE][PASSED] - Text 'thao.nguyen21@student.passerellesnumeriques.org ' is set on object 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_email'
+
+2021-01-28 10:56:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_password"), password): Text ****** has been set on object 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_password'
+
+2021-01-28 10:56:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_password'
+
+2021-01-28 10:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/button_NG NHP")): Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/button_NG NHP' is clicked on
+
+2021-01-28 10:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/button_NG NHP' is clicked on
+
+2021-01-28 10:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_Tin tc Big C")): Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_Tin tc Big C' is clicked on
+
+2021-01-28 10:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_Tin tc Big C' is clicked on
+
+2021-01-28 10:56:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-28 10:56:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-28 10:55:53 - [TEST_SUITE][INCOMPLETE] - Login_TestSuit: null]]></system-out>
+      <system-err><![CDATA[2021-01-28 10:55:53 - [TEST_SUITE][INCOMPLETE] - Login_TestSuit: null]]></system-err>
+   </testsuite>
+</testsuites>

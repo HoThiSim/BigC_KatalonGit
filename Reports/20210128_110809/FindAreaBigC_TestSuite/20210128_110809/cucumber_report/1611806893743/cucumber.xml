@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.949933">
+<testcase classname="FindArea" name="Title of your scenario outline" time="15.949933">
+<system-out><![CDATA[Given Usser navigate Big C hompage..........................................passed
+And Click Find Market button................................................passed
+And Click Mien Trung tag....................................................passed
+Then I verify Da Nang address Big C ĐÀ NẴNG by Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng and Hue address Big C HUẾ by 174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế  and Nha Trang address GO! NHA TRANG by Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa and Quy Nhon address Big C QUY NHƠN by TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định in step.passed
+]]></system-out>
+</testcase>
+</testsuite>

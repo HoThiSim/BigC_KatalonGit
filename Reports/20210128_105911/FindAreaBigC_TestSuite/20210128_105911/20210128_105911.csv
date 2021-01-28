@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FindAreaBigC_TestSuite,Chrome 88.0.4324.104,,,2021-01-28 10:59:14,2021-01-28 10:59:31,17.652s,PASSED
+,,,,,,,
+Test Cases/FindAreaBigC/TestMienTrungBigC,Chrome 88.0.4324.104,,,2021-01-28 10:59:14,2021-01-28 10:59:31,16.826s,PASSED
+"runFeatureFile(""Include/features/FindAreaBigC/MienTrungBigC.feature"")",Chrome 88.0.4324.104,,,2021-01-28 10:59:15,2021-01-28 10:59:31,16.571s,PASSED

@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-28T10:59:14</date>
+  <millis>1611806354038</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/FindAreaBigC_TestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">FindAreaBigC_TestSuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/FindAreaBigC_TestSuite</property>
+  <property name="stopImmediately">false</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:14</date>
+  <millis>1611806354051</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = PNV - SGH649TX82.kms.com.vn</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">PNV - SGH649TX82.kms.com.vn</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:14</date>
+  <millis>1611806354051</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:14</date>
+  <millis>1611806354052</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.182.15</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.182.15</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:14</date>
+  <millis>1611806354053</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.8.1.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">7.8.1.208</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:14</date>
+  <millis>1611806354864</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/FindAreaBigC/TestMienTrungBigC</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/FindAreaBigC/TestMienTrungBigC</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/FindAreaBigC/TestMienTrungBigC</property>
+  <property name="source">C:\Users\PNV\git\BigC_KatalonGit\BigC_KatalonGit\BigC_KatalonGit\BigC_KatalonGit\Test Cases\FindAreaBigC\TestMienTrungBigC.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:15</date>
+  <millis>1611806355118</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(&amp;quot;Include/features/FindAreaBigC/MienTrungBigC.feature&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:15</date>
+  <millis>1611806355161</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/FindAreaBigC/MienTrungBigC.feature&amp;apos; and extract report to folder: &amp;apos;C:\Users\PNV\git\BigC_KatalonGit\BigC_KatalonGit\BigC_KatalonGit\BigC_KatalonGit\Reports\20210128_105911\FindAreaBigC_TestSuite\20210128_105911/cucumber_report/1611806355154&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:15</date>
+  <millis>1611806355748</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Title of your scenario outline</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="BDD_TESTCASE_TYPE">scenario</property>
+  <property name="BDD_TESTCASE_DESCRIPTION"></property>
+  <property name="BDD_TESTCASE_LINE">16</property>
+  <property name="BDD_TESTRUN_UUID">ad769ce0-9bf5-4eb0-8892-1e8600232920</property>
+  <property name="BDD_TESTCASE_NAME">Title of your scenario outline</property>
+  <property name="BDD_FEATURE_NAME">FindArea</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:15</date>
+  <millis>1611806355750</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Usser navigate Big C hompage</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="BDD_STEP_LINE">8</property>
+  <property name="BDD_STEP_NAME">Usser navigate Big C hompage</property>
+  <property name="BDD_STEP_KEYWORD">Given </property>
+  <property name="BDD_STEP_UUID">73209ca2-160f-4be8-91ae-bd19740b434f</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:15</date>
+  <millis>1611806355957</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:15</date>
+  <millis>1611806355998</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:18</date>
+  <millis>1611806358988</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 290fce2ef8cb43d46efac29c2246dc30</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">290fce2ef8cb43d46efac29c2246dc30</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:19</date>
+  <millis>1611806359226</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 88.0.4324.104</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 88.0.4324.104</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:19</date>
+  <millis>1611806359227</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:19</date>
+  <millis>1611806359227</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:19</date>
+  <millis>1611806359228</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:19</date>
+  <millis>1611806359243</millis>
+  <sequence>22</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:23</date>
+  <millis>1611806363032</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.bigc.vn/&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:23</date>
+  <millis>1611806363209</millis>
+  <sequence>28</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:23</date>
+  <millis>1611806363212</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Usser navigate Big C hompage</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:23</date>
+  <millis>1611806363213</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Usser navigate Big C hompage</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="BDD_STEP_DURATION">7460878900</property>
+  <property name="BDD_STEP_STATUS">passed</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:23</date>
+  <millis>1611806363214</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click Find Market button</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="BDD_STEP_LINE">9</property>
+  <property name="BDD_STEP_NAME">Click Find Market button</property>
+  <property name="BDD_STEP_KEYWORD">And </property>
+  <property name="BDD_STEP_UUID">588181e2-c374-4bad-9e4c-a00a8b023ca3</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:25</date>
+  <millis>1611806365864</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/test/Page_Gi lun lun thp  Big C Supercenter/a_Tm siu th&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:25</date>
+  <millis>1611806365866</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click Find Market button</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:25</date>
+  <millis>1611806365869</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click Find Market button</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="BDD_STEP_DURATION">2651632400</property>
+  <property name="BDD_STEP_STATUS">passed</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:25</date>
+  <millis>1611806365870</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click Mien Trung tag</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="BDD_STEP_LINE">10</property>
+  <property name="BDD_STEP_NAME">Click Mien Trung tag</property>
+  <property name="BDD_STEP_KEYWORD">And </property>
+  <property name="BDD_STEP_UUID">899ba0b7-4c07-4952-b476-0f2dd3570276</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:27</date>
+  <millis>1611806367405</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/a_Min Trung&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:27</date>
+  <millis>1611806367406</millis>
+  <sequence>53</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click Mien Trung tag</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:27</date>
+  <millis>1611806367407</millis>
+  <sequence>54</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click Mien Trung tag</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="BDD_STEP_DURATION">1535935100</property>
+  <property name="BDD_STEP_STATUS">passed</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:27</date>
+  <millis>1611806367408</millis>
+  <sequence>55</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : I verify Da Nang address Big C ĐÀ NẴNG by Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng and Hue address Big C HUẾ by 174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế  and Nha Trang address GO! NHA TRANG by Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa and Quy Nhon address Big C QUY NHƠN by TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định in step</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="BDD_STEP_LINE">11</property>
+  <property name="BDD_STEP_NAME">I verify Da Nang address Big C ĐÀ NẴNG by Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng and Hue address Big C HUẾ by 174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế  and Nha Trang address GO! NHA TRANG by Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa and Quy Nhon address Big C QUY NHƠN by TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định in step</property>
+  <property name="BDD_STEP_KEYWORD">Then </property>
+  <property name="BDD_STEP_UUID">f9d5d5ca-4026-4639-8766-010f0511c805</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:28</date>
+  <millis>1611806368487</millis>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_Big C  NNG&amp;apos; is: &amp;apos;Big C ĐÀ NẴNG&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:28</date>
+  <millis>1611806368784</millis>
+  <sequence>73</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_Khu thng Mi Vnh Trung, 255-257 Hng Vng, Q_092fcc&amp;apos; is: &amp;apos;Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:29</date>
+  <millis>1611806369083</millis>
+  <sequence>82</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_Big C HU&amp;apos; is: &amp;apos;Big C HUẾ&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:29</date>
+  <millis>1611806369394</millis>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_174 B Triu, Phng Ph Hi, TP. Hu, Tnh Tha Thin Hu&amp;apos; is: &amp;apos;174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:29</date>
+  <millis>1611806369711</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_GO NHA TRANG&amp;apos; is: &amp;apos;GO! NHA TRANG&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:30</date>
+  <millis>1611806370032</millis>
+  <sequence>109</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_L s 4, ng 195, Khu  th Vnh im Trung, X Vn_ac84f4&amp;apos; is: &amp;apos;Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:30</date>
+  <millis>1611806370337</millis>
+  <sequence>118</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_Big C QUY NHN&amp;apos; is: &amp;apos;Big C QUY NHƠN&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:30</date>
+  <millis>1611806370630</millis>
+  <sequence>127</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of object &amp;apos;Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_TTTM Kim Cc, Khu  th Xanh Vng Chua, Phng _153ac7&amp;apos; is: &amp;apos;TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371588</millis>
+  <sequence>129</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371590</millis>
+  <sequence>130</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>I verify Da Nang address Big C ĐÀ NẴNG by Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng and Hue address Big C HUẾ by 174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế  and Nha Trang address GO! NHA TRANG by Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa and Quy Nhon address Big C QUY NHƠN by TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định in step</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371591</millis>
+  <sequence>131</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : I verify Da Nang address Big C ĐÀ NẴNG by Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng and Hue address Big C HUẾ by 174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế  and Nha Trang address GO! NHA TRANG by Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa and Quy Nhon address Big C QUY NHƠN by TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định in step</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="BDD_STEP_DURATION">4181657100</property>
+  <property name="BDD_STEP_STATUS">passed</property>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371597</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Title of your scenario outline</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371597</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Title of your scenario outline</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371689</millis>
+  <sequence>134</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/FindAreaBigC/MienTrungBigC.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371689</millis>
+  <sequence>135</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(&amp;quot;Include/features/FindAreaBigC/MienTrungBigC.feature&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371690</millis>
+  <sequence>136</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/FindAreaBigC/TestMienTrungBigC</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371690</millis>
+  <sequence>137</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/FindAreaBigC/TestMienTrungBigC</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371693</millis>
+  <sequence>138</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371807</millis>
+  <sequence>238</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\PNV\git\BigC_KatalonGit\BigC_KatalonGit\BigC_KatalonGit\BigC_KatalonGit\Reports\20210128_105911\FindAreaBigC_TestSuite\20210128_105911...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371843</millis>
+  <sequence>239</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371844</millis>
+  <sequence>240</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\PNV\git\BigC_KatalonGit\BigC_KatalonGit\BigC_KatalonGit\BigC_KatalonGit\Reports\20210128_105911\FindAreaBigC_TestSuite\20210128_105911...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371863</millis>
+  <sequence>241</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2021-01-28T10:59:31</date>
+  <millis>1611806371863</millis>
+  <sequence>243</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

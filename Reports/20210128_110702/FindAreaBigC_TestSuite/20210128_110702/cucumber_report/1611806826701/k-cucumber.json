@@ -1,0 +1,127 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "bc9673cf-4f6e-4ba5-be2c-8383e25a5952",
+        "line": 16,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "findarea;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8008391200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Usser navigate Big C hompage",
+            "match": {
+              "location": "MienTrungBigCSteps.navigatePage()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "de9c34bd-618c-4346-af5c-6b806d3e1752"
+          },
+          {
+            "result": {
+              "duration": 2819078300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Find Market button",
+            "match": {
+              "location": "MienTrungBigCSteps.Click_FindMarket_button()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "efbad27b-f984-4af0-9dfa-677386c20ee7"
+          },
+          {
+            "result": {
+              "duration": 1528455900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Mien Trung tag",
+            "match": {
+              "location": "MienTrungBigCSteps.Click_MienTrung_Tag()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "828930fe-ee9c-46d0-8c92-668ee8e411c1"
+          },
+          {
+            "result": {
+              "duration": 4174270900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify Da Nang address Big C ĐÀ NẴNG by Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng and Hue address Big C HUẾ by 174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế  and Nha Trang address GO! NHA TRANG by Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa and Quy Nhon address Big C QUY NHƠN by TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Big C ĐÀ NẴNG",
+                  "offset": 25
+                },
+                {
+                  "val": "Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng",
+                  "offset": 42
+                },
+                {
+                  "val": "Big C HUẾ",
+                  "offset": 133
+                },
+                {
+                  "val": "174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế",
+                  "offset": 146
+                },
+                {
+                  "val": "GO! NHA TRANG",
+                  "offset": 228
+                },
+                {
+                  "val": "Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa",
+                  "offset": 245
+                },
+                {
+                  "val": "Big C QUY NHƠN",
+                  "offset": 358
+                },
+                {
+                  "val": "TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định",
+                  "offset": 376
+                }
+              ],
+              "location": "MienTrungBigCSteps.VerifyDataDisplay(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "3fcb4f5f-0376-42ed-9d72-a3eb6a3f939b"
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "FindArea",
+    "description": "  I want to use this template for my feature file",
+    "id": "findarea",
+    "keyword": "Feature",
+    "uri": "C:/Users/PNV/git/BigC_KatalonGit/BigC_KatalonGit/BigC_KatalonGit/BigC_KatalonGit/Include/features/FindAreaBigC/MienTrungBigC.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

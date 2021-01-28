@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FindAreaBigC_TestSuite" time="17.87" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="FindAreaBigC_TestSuite" tests="1" failures="0" errors="0" time="17.87" skips="0" timestamp="2021-01-28 11:08:12" hostname="PNV - SGH649TX82.kms.com.vn" id="Test Suites/FindAreaBigC_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PNV\\git\\BigC_KatalonGit\\BigC_KatalonGit\\BigC_KatalonGit\\BigC_KatalonGit\\Reports\\20210128_110809\\FindAreaBigC_TestSuite\\20210128_110809"/>
+         <property name="logFiles" value="C:\\Users\\PNV\\git\\BigC_KatalonGit\\BigC_KatalonGit\\BigC_KatalonGit\\BigC_KatalonGit\\Reports\\20210128_110809\\FindAreaBigC_TestSuite\\20210128_110809\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PNV - SGH649TX82.kms.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.104"/>
+         <property name="hostAddress" value="192.168.182.15"/>
+         <property name="sessionId" value="d2ce5d7b76dce156c421cf732777b28b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/FindAreaBigC/TestMienTrungBigC" time="16.977" classname="Test Cases/FindAreaBigC/TestMienTrungBigC" status="PASSED">
+         <system-out><![CDATA[2021-01-28 11:08:13 - [TEST_CASE][PASSED] - Test Cases/FindAreaBigC/TestMienTrungBigC: Test Cases/FindAreaBigC/TestMienTrungBigC
+
+2021-01-28 11:08:13 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/FindAreaBigC/MienTrungBigC.feature"): Feature file: 'Include/features/FindAreaBigC/MienTrungBigC.feature' was passed
+
+2021-01-28 11:08:13 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/FindAreaBigC/MienTrungBigC.feature' and extract report to folder: 'C:\Users\PNV\git\BigC_KatalonGit\BigC_KatalonGit\BigC_KatalonGit\BigC_KatalonGit\Reports\20210128_110809\FindAreaBigC_TestSuite\20210128_110809/cucumber_report/1611806893743'...
+
+2021-01-28 11:08:14 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Title of your scenario outline: SCENARIO Title of your scenario outline
+
+2021-01-28 11:08:14 - [TEST_STEP][PASSED] - Usser navigate Big C hompage: Usser navigate Big C hompage
+
+2021-01-28 11:08:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-28 11:08:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-28 11:08:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-28 11:08:21 - [MESSAGE][PASSED] - Navigate to 'https://www.bigc.vn/' successfully
+
+2021-01-28 11:08:21 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-28 11:08:21 - [MESSAGE][PASSED] - Usser navigate Big C hompage
+
+2021-01-28 11:08:21 - [TEST_STEP][PASSED] - Click Find Market button: Click Find Market button
+
+2021-01-28 11:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/test/Page_Gi lun lun thp  Big C Supercenter/a_Tm siu th' is clicked on
+
+2021-01-28 11:08:24 - [MESSAGE][PASSED] - Click Find Market button
+
+2021-01-28 11:08:24 - [TEST_STEP][PASSED] - Click Mien Trung tag: Click Mien Trung tag
+
+2021-01-28 11:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/a_Min Trung' is clicked on
+
+2021-01-28 11:08:26 - [MESSAGE][PASSED] - Click Mien Trung tag
+
+2021-01-28 11:08:26 - [TEST_STEP][PASSED] - I verify Da Nang address Big C ĐÀ NẴNG by Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng and Hue address Big C HUẾ by 174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế  and Nha Trang address GO! NHA TRANG by Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa and Quy Nhon address Big C QUY NHƠN by TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định in step: I verify Da Nang address Big C ĐÀ NẴNG by Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng and Hue address Big C HUẾ by 174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế  and Nha Trang address GO! NHA TRANG by Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa and Quy Nhon address Big C QUY NHƠN by TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định in step
+
+2021-01-28 11:08:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_Big C  NNG' is: 'Big C ĐÀ NẴNG'
+
+2021-01-28 11:08:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_Khu thng Mi Vnh Trung, 255-257 Hng Vng, Q_092fcc' is: 'Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng'
+
+2021-01-28 11:08:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_Big C HU' is: 'Big C HUẾ'
+
+2021-01-28 11:08:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_174 B Triu, Phng Ph Hi, TP. Hu, Tnh Tha Thin Hu' is: '174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế'
+
+2021-01-28 11:08:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_GO NHA TRANG' is: 'GO! NHA TRANG'
+
+2021-01-28 11:08:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_L s 4, ng 195, Khu  th Vnh im Trung, X Vn_ac84f4' is: 'Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa'
+
+2021-01-28 11:08:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_Big C QUY NHN' is: 'Big C QUY NHƠN'
+
+2021-01-28 11:08:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_TTTM Kim Cc, Khu  th Xanh Vng Chua, Phng _153ac7' is: 'TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định'
+
+2021-01-28 11:08:30 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-28 11:08:30 - [MESSAGE][PASSED] - I verify Da Nang address Big C ĐÀ NẴNG by Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng and Hue address Big C HUẾ by 174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế  and Nha Trang address GO! NHA TRANG by Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa and Quy Nhon address Big C QUY NHƠN by TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định in step
+
+2021-01-28 11:08:30 - [MESSAGE][PASSED] - Feature file: 'Include/features/FindAreaBigC/MienTrungBigC.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-28 11:08:12 - [TEST_SUITE][INCOMPLETE] - FindAreaBigC_TestSuite: null]]></system-out>
+      <system-err><![CDATA[2021-01-28 11:08:12 - [TEST_SUITE][INCOMPLETE] - FindAreaBigC_TestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>
