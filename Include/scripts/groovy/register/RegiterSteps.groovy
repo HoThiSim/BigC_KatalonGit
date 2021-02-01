@@ -47,73 +47,52 @@ import cucumber.api.java.en.When
 class RegiterSteps {
 	@Given("User navigate to home page")
 	def navigateHomePage() {
-		println ("Here is navigateHomePage")
 
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl('https://www.bigc.vn/')
+		WebUI.maximizeWindow()
 	}
 
 	@When("Click Regiter button")
 	def ClickRegiterbutton() {
-		println ("\n Here is ClickRegiterbutton")
 
-		WebUI.click(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/a_NG K'))
+		WebUI.click(findTestObject('Object Repository/Register/Page_Gi lun lun thp  Big C Supercenter/a_NG K'))
 	}
 
 	@And("User enters (.*) and (.*) and (.*) and (.*)")
 	def enterData(String firstname, String lastname, String email, String phone){
-		println ("\nHere is: "+firstname)
-		println ("\n Here is: "+lastname)
-		println ("\n Here is: "+email)
-		println ("\n Here is: "+phone)
-		WebUI.setText(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_9dd15d'),firstname)
-		WebUI.setText(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_128395'),lastname)
-		WebUI.setText(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_0016b1'),email)
-		WebUI.setText(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_671eff'),phone)
+		
+		WebUI.setText(findTestObject('Object Repository/Register/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_9dd15d'),firstname)
+		WebUI.setText(findTestObject('Object Repository/Register/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_128395'),lastname)
+		WebUI.setText(findTestObject('Object Repository/Register/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_0016b1'),email)
+		WebUI.setText(findTestObject('Object Repository/Register/Page_Gi lun lun thp  Big C Supercenter/input_a ch email khng hp l._phone'),phone)
 	}
-	
+
 	@And("User choices (.*)")
 	def ChoiceOptionAddress(String option){
 		println ("here is ChoiceOptionAddress")
-		WebUI.selectOptionByValue(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/select_Chn ca hng gn bn                    _d54a35'),option, true)
+		WebUI.selectOptionByValue(findTestObject('Object Repository/Register/Page_Gi lun lun thp  Big C Supercenter/select_Chn ca hng gn bn                    _d54a35'),option, true)
 	}
-	
+
 	@And("User enters password (.*) and confirm password (.*)")
 	def EnterPassword(String password, String confirmPassword){
-		println ("here is EnterPassword")
-		println ("\nHere is: "+password)
-		println ("\n Here is: "+confirmPassword)
-		
-		WebUI.setEncryptedText(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_b3d1e1'),password)
-		WebUI.setEncryptedText(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_c6775d'),confirmPassword)
+
+		WebUI.setEncryptedText(findTestObject('Object Repository/Register/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_b3d1e1'),password)
+		WebUI.setEncryptedText(findTestObject('Object Repository/Register/Page_Gi lun lun thp  Big C Supercenter/input_Bn ch mt cha y 60s  ng k. Mt ln thc h_c6775d'),confirmPassword)
 	}
-	
+
 	@And("Click checkmark gender")
 	def ClickCheckmarkGender() {
 		println ("\n here is ClickCheckmarkGender ")
-		WebUI.click(findTestObject('Object Repository/r/Page_Gi lun lun thp  Big C Supercenter/span_Bn ch mt cha y 60s  ng k. Mt ln thc hi_4ca467'))
+		WebUI.click(findTestObject('Object Repository/Register/Page_Gi lun lun thp  Big C Supercenter/span_Bn ch mt cha y 60s  ng k. Mt ln thc hi_4ca467'))
 	}
 
-	@And("Click Continue button")
+	@Then("Click Continue button")
 	def ClickContinuebutton() {
 		println ("\n here is ClickContinuebutton button ")
-		WebUI.click(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/button_TIP TC'))
-	}
-	@And("Click profile button")
-	def ClickProfileButton() {
-		println ("\n here is Click profile button ")
-		WebUI.click(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/button_GI LI M KCH HOT'))
-	}
-	@And("Click duyetWeb")
-	def ClickDuyetWeb() {
-		println ("\n here is ClickDuyetWeb ")
-		WebUI.click(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/a_Tip tc duyt web'))
-	}
-	@Then("Click name")
-	def ClickName() {
-		println ("\n here is Click name ")
-		WebUI.click(findTestObject('RegisterScript/Page_Gi lun lun thp  Big C Supercenter/a_Thao'))
+		WebUI.click(findTestObject('Object Repository/Register/Page_Gi lun lun thp  Big C Supercenter/button_TIP TC'))
 		WebUI.closeBrowser()
 	}
 	
+
 }

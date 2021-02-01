@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FindAreaBigC,Chrome 88.0.4324.104,,,2021-01-30 16:17:26,2021-01-30 16:18:20,54.103s,PASSED
+,,,,,,,
+Test Cases/FindAreaBigC/TestMienBacBigC,Chrome 88.0.4324.104,,,2021-01-30 16:17:27,2021-01-30 16:17:45,18.053s,PASSED
+"runFeatureFile(""Include/features/FindAreaBigC/MienBacBigC.feature"")",Chrome 88.0.4324.104,,,2021-01-30 16:17:27,2021-01-30 16:17:45,17.836s,PASSED
+,,,,,,,
+Test Cases/FindAreaBigC/TestMienNamBigC,Chrome 88.0.4324.104,,,2021-01-30 16:17:45,2021-01-30 16:18:02,17.188s,PASSED
+"runFeatureFile(""Include/features/FindAreaBigC/MienNamBigC.feature"")",Chrome 88.0.4324.104,,,2021-01-30 16:17:45,2021-01-30 16:18:02,17.063s,PASSED
+,,,,,,,
+Test Cases/FindAreaBigC/TestMienTrungBigC,Chrome 88.0.4324.104,,,2021-01-30 16:18:02,2021-01-30 16:18:20,18.122s,PASSED
+"runFeatureFile(""Include/features/FindAreaBigC/MienTrungBigC.feature"")",Chrome 88.0.4324.104,,,2021-01-30 16:18:02,2021-01-30 16:18:20,18.004s,PASSED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register_TestSuite,Chrome 88.0.4324.104,,,2021-02-01 14:15:47,2021-02-01 14:16:08,21.161s,FAILED
+,,,,,,,
+Test Cases/Register/TestRegister,Chrome 88.0.4324.104,,,2021-02-01 14:15:48,2021-02-01 14:16:08,20.323s,FAILED
+"runFeatureFile(""Include/features/registerBigC/Register.feature"")",Chrome 88.0.4324.104,,,2021-02-01 14:15:48,2021-02-01 14:15:57,9.065s,FAILED

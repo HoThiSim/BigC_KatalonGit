@@ -62,17 +62,20 @@ class MienBacBigCSteps {
 	def Click_MienTrung_Tag() {
 		WebUI.click(findTestObject('Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/a_Min Bc'))
 	}
-	@Then("I verify Bac Giang (.*) by (.*) and Ha Long (.*) by (.*)")
-	def VerifyDataDisplay_MienBac(String bacgiang, String bacgiangdetail, String halong, String halongdetail ){
-		
+	@Then("I verify Bac Giang (.*) by (.*) and Ha Long (.*) by (.*) and Hai Duong (.*) by (.*) and Hai Phong (.*) by (.*)")
+	def VerifyDataDisplay_MienBac(String bacgiang, String bacgiangdetail, String halong, String halongdetail, String haiduong, String haiduongdetail, String haiphong, String haiphongdetail ){
+
 		assert WebUI.getText(findTestObject("Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_Big C BC GIANG"))==bacgiang
 		assert WebUI.getText(findTestObject("Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_X Tn Tin, Thnh Ph Bc Giang, Tnh Bc Giang"))==bacgiangdetail
-		
+
 		assert WebUI.getText(findTestObject("Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_GO H LONG"))==halong
 		assert WebUI.getText(findTestObject("Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_Ct 5, Phng Hng Hi, Thnh ph H Long, Tnh Qung Ninh"))==halongdetail
-		
-	
+
+		assert WebUI.getText(findTestObject("Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_Big C HI DNG"))==haiduong
+		assert WebUI.getText(findTestObject("Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_Khu TTTM Ngc Chu, Phng Nh Chu, TP. Hi Dng_7c3686"))==haiduongdetail
+
+		assert WebUI.getText(findTestObject("Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/h5_Big C HI PHNG"))==haiphong
+		assert WebUI.getText(findTestObject("Object Repository/test/Page_Tm siu th  Tm a ch  Big C Supercenter/p_L 120, Khu  Th Mi Ng Nm, Sn Bay Ct Bi, Qu_f59268"))==haiphongdetail
 		WebUI.closeBrowser()
-		
 	}
 }

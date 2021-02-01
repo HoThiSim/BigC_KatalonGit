@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_TestSuit,Chrome 88.0.4324.104,,,2021-02-01 13:59:06,2021-02-01 13:59:31,24.523s,PASSED
+,,,,,,,
+Test Cases/Login/TestLoginFail,Chrome 88.0.4324.104,,,2021-02-01 13:59:07,2021-02-01 13:59:31,23.660s,PASSED
+"runFeatureFile(""Include/features/Login/LoginFail.feature"")",Chrome 88.0.4324.104,,,2021-02-01 13:59:07,2021-02-01 13:59:31,23.406s,PASSED

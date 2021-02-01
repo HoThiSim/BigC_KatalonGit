@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/RegisterScript/Page_Gi lun lun thp  Big C Supercenter/a_Thao_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/LoginFail/Page_Gi lun lun thp  Big C Supercenter/label_Hy nhp d liu",
+      "brokenLocator": "//label[@id\u003d\u0027email-error\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form[@id\u003d\u0027auth-form\u0027]/div/label",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/LoginFail/Page_Gi lun lun thp  Big C Supercenter/label_Hy nhp d liu_idRelative.png"
     }
   ]
 }

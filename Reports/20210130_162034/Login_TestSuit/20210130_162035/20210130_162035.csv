@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_TestSuit,Chrome 88.0.4324.104,,,2021-01-30 16:20:42,2021-01-30 16:21:15,32.563s,PASSED
+,,,,,,,
+Test Cases/Login/TestLogin,Chrome 88.0.4324.104,,,2021-01-30 16:20:43,2021-01-30 16:20:59,15.978s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-30 16:20:43,2021-01-30 16:20:49,5.213s,PASSED
+"navigateToUrl(""https://www.bigc.vn/"")",Chrome 88.0.4324.104,,,2021-01-30 16:20:49,2021-01-30 16:20:51,2.457s,PASSED
+maximizeWindow(),Chrome 88.0.4324.104,,,2021-01-30 16:20:51,2021-01-30 16:20:53,2.159s,PASSED
+"click(findTestObject(""Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_NG NHP""))",Chrome 88.0.4324.104,,,2021-01-30 16:20:53,2021-01-30 16:20:54,0.709s,PASSED
+"setText(findTestObject(""Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_email""), username)",Chrome 88.0.4324.104,,,2021-01-30 16:20:54,2021-01-30 16:20:55,1.007s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_password""), password)",Chrome 88.0.4324.104,,,2021-01-30 16:20:55,2021-01-30 16:20:55,0.447s,PASSED
+"click(findTestObject(""Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/button_NG NHP""))",Chrome 88.0.4324.104,,,2021-01-30 16:20:55,2021-01-30 16:20:56,0.482s,PASSED
+"click(findTestObject(""Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_Tin tc Big C""))",Chrome 88.0.4324.104,,,2021-01-30 16:20:56,2021-01-30 16:20:58,2.419s,PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-01-30 16:20:58,2021-01-30 16:20:59,0.817s,PASSED
+,,,,,,,
+Test Cases/Login/TestLogin,Chrome 88.0.4324.104,,,2021-01-30 16:20:59,2021-01-30 16:21:15,15.686s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-30 16:20:59,2021-01-30 16:21:03,4.066s,PASSED
+"navigateToUrl(""https://www.bigc.vn/"")",Chrome 88.0.4324.104,,,2021-01-30 16:21:03,2021-01-30 16:21:07,3.708s,PASSED
+maximizeWindow(),Chrome 88.0.4324.104,,,2021-01-30 16:21:07,2021-01-30 16:21:09,2.158s,PASSED
+"click(findTestObject(""Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_NG NHP""))",Chrome 88.0.4324.104,,,2021-01-30 16:21:09,2021-01-30 16:21:10,0.645s,PASSED
+"setText(findTestObject(""Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_email""), username)",Chrome 88.0.4324.104,,,2021-01-30 16:21:10,2021-01-30 16:21:11,0.988s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/input_NG K_password""), password)",Chrome 88.0.4324.104,,,2021-01-30 16:21:11,2021-01-30 16:21:11,0.368s,PASSED
+"click(findTestObject(""Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/button_NG NHP""))",Chrome 88.0.4324.104,,,2021-01-30 16:21:11,2021-01-30 16:21:12,0.532s,PASSED
+"click(findTestObject(""Object Repository/LoginScript/Page_Gi lun lun thp  Big C Supercenter/a_Tin tc Big C""))",Chrome 88.0.4324.104,,,2021-01-30 16:21:12,2021-01-30 16:21:14,2.400s,PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-01-30 16:21:14,2021-01-30 16:21:15,0.809s,PASSED
