@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Mien Nam",
+        "description": "",
+        "id": "findarea;mien-nam;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10585746000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Usser navigate Big C hompage mien bac",
+            "match": {
+              "location": "MienBacBigCSteps.navigatePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2710750500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Find Market button to display mien bac",
+            "match": {
+              "location": "MienBacBigCSteps.Click_FindMarket_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1738219000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Mien Bac tag",
+            "match": {
+              "location": "MienBacBigCSteps.Click_MienTrung_Tag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3846402800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify Bac Giang Big C BẮC GIANG by Xã Tân Tiến, Thành Phố Bắc Giang, Tỉnh Bắc Giang and Ha Long GO! HẠ LONG by Cột 5, Phường Hồng Hải, Thành phố Hạ Long, Tỉnh Quảng Ninh and Hai Duong Big C HẢI DƯƠNG by Khu TTTM Ngọc Châu, Phường Nhị Châu, TP. Hải Dương, Tỉnh Hải Dương and Hai Phong Big C HẢI PHÒNG by Lô 1/20, Khu Đô Thị Mới Ngã Năm, Sân Bay Cát Bi, Quận Ngô Quyền, TP. Hải Phòng (Ngã Tư Lê Hồng Phong - Nguyễn Bỉnh Khiêm)",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Big C BẮC GIANG",
+                  "offset": 19
+                },
+                {
+                  "val": "Xã Tân Tiến, Thành Phố Bắc Giang, Tỉnh Bắc Giang",
+                  "offset": 38
+                },
+                {
+                  "val": "GO! HẠ LONG",
+                  "offset": 99
+                },
+                {
+                  "val": "Cột 5, Phường Hồng Hải, Thành phố Hạ Long, Tỉnh Quảng Ninh",
+                  "offset": 114
+                },
+                {
+                  "val": "Big C HẢI DƯƠNG",
+                  "offset": 187
+                },
+                {
+                  "val": "Khu TTTM Ngọc Châu, Phường Nhị Châu, TP. Hải Dương, Tỉnh Hải Dương",
+                  "offset": 206
+                },
+                {
+                  "val": "Big C HẢI PHÒNG",
+                  "offset": 287
+                },
+                {
+                  "val": "Lô 1/20, Khu Đô Thị Mới Ngã Năm, Sân Bay Cát Bi, Quận Ngô Quyền, TP. Hải Phòng (Ngã Tư Lê Hồng Phong - Nguyễn Bỉnh Khiêm)",
+                  "offset": 306
+                }
+              ],
+              "location": "MienBacBigCSteps.VerifyDataDisplay_MienBac(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "FindArea",
+    "description": "  I want to use this template for my feature file",
+    "id": "findarea",
+    "keyword": "Feature",
+    "uri": "C:/Users/PNV/git/BigC_KatalonGit/BigC_KatalonGit/BigC_KatalonGit/BigC_KatalonGit/Include/features/FindAreaBigC/MienBacBigC.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

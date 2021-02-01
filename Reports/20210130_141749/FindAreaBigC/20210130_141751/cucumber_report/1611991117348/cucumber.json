@@ -1,0 +1,122 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Mien Trung",
+        "description": "",
+        "id": "findarea;mien-trung;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8885246200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Usser navigate Big C hompage mien trung",
+            "match": {
+              "location": "MienTrungBigCSteps.navigatePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2530976800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Find Market button to display mien trung",
+            "match": {
+              "location": "MienTrungBigCSteps.Click_FindMarket_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1600281800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Mien Trung tag",
+            "match": {
+              "location": "MienTrungBigCSteps.Click_MienTrung_Tag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3888643500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify Da Nang address Big C ĐÀ NẴNG by Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng and Hue address Big C HUẾ by 174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế  and Nha Trang address GO! NHA TRANG by Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa and Quy Nhon address Big C QUY NHƠN by TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Big C ĐÀ NẴNG",
+                  "offset": 25
+                },
+                {
+                  "val": "Khu thương Mại Vĩnh Trung, 255-257 Hùng Vương, Quận Thanh Khê, TP. Đà Nẵng",
+                  "offset": 42
+                },
+                {
+                  "val": "Big C HUẾ",
+                  "offset": 133
+                },
+                {
+                  "val": "174 Bà Triệu, Phường Phú Hội, TP. Huế, Tỉnh Thừa Thiên Huế",
+                  "offset": 146
+                },
+                {
+                  "val": "GO! NHA TRANG",
+                  "offset": 228
+                },
+                {
+                  "val": "Lô số 4, đường 19/5, Khu đô thị Vĩnh Điềm Trung, Xã Vĩnh Hiệp, TP Nha Trang, Tỉnh Khánh Hòa",
+                  "offset": 245
+                },
+                {
+                  "val": "Big C QUY NHƠN",
+                  "offset": 358
+                },
+                {
+                  "val": "TTTM Kim Cúc, Khu đô thị Xanh Vũng Chua, Phường Ghềnh Ráng, TP. Quy Nhơn, Tỉnh Bình Định",
+                  "offset": 376
+                }
+              ],
+              "location": "MienTrungBigCSteps.VerifyDataDisplay(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "FindArea",
+    "description": "  I want to use this template for my feature file",
+    "id": "findarea",
+    "keyword": "Feature",
+    "uri": "C:/Users/PNV/git/BigC_KatalonGit/BigC_KatalonGit/BigC_KatalonGit/BigC_KatalonGit/Include/features/FindAreaBigC/MienTrungBigC.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

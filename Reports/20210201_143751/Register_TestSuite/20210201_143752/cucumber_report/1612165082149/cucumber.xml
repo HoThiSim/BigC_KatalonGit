@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="32.005954">
+<testcase classname="Title of your feature" name="Title of your scenario outline" time="15.906111">
+<system-out><![CDATA[Given User navigate to home page............................................passed
+When Click Regiter button...................................................passed
+And User enters Ho and Sim and simho140200@gmail.com and 0395834333.........passed
+And User choices 15.........................................................passed
+And User enters password dVZ3mOA9R9w= and confirm password dVZ3mOA9R9w=.....passed
+And Click checkmark gender..................................................passed
+Then Click Continue button..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Title of your feature" name="Title of your scenario outline 2" time="16.099843">
+<system-out><![CDATA[Given User navigate to home page............................................passed
+When Click Regiter button...................................................passed
+And User enters Nguyen and Nga and nga.nguyen@student.passerellesnumeriques.org and 0986755354.passed
+And User choices 14.........................................................passed
+And User enters password cLCWEJFdVfI= and confirm password cLCWEJFdVfI=.....passed
+And Click checkmark gender..................................................passed
+Then Click Continue button..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

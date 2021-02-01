@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.508154">
+<testcase classname="FindArea" name="Mien Nam" time="16.508154">
+<system-out><![CDATA[Given Usser navigate Big C hompage mien nam.................................passed
+And Click Find Market button to display mien nam............................passed
+And Click Mien Nam tag......................................................passed
+Then I verify Binh Duong Big C BÌNH DƯƠNG by Phường Hiệp Thành, TP. Thủ Dầu Một, Tỉnh Bình Dương and DaLat address GO! CẦN THƠ by Lô số 1, Khu Dân Cư Hưng Phú 1, Phường Hưng Phú, Quận Cái Răng, TP. Cần Thơ and Da Lat address Big C ĐÀ LẠT by Quảng trường trung tâm Đà Lạt, Đường Trần Quốc Toản, Phường 1, Thành Phố Đà Lạt and Di An address GO! DĨ AN by Phường Đông Hòa, Thị Xã Dĩ An, Tỉnh Bình Dương and Dong Nai address Big C ĐỒNG NAI by Số 833, Xa lộ Hà Nội, Phường Long Bình Tân, Thành Phố Biên Hòa, Tỉnh Đồng Nai ( Ngã 4 Vũng Tàu).passed
+]]></system-out>
+</testcase>
+</testsuite>

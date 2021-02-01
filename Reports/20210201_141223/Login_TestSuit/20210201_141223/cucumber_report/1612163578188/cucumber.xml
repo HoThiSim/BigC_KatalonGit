@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="20.430385">
+<testcase classname="Login" name="Login Fail" time="9.87281">
+<system-out><![CDATA[Given Navigate to login form................................................passed
+When Click login tag........................................................passed
+And Input username  and password  to Login..................................passed
+And Click Login button......................................................passed
+Then I verify the error message Hãy nhập dữ liệu. and Hãy nhập dữ liệu. in step.passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login Fail 2" time="10.557575">
+<system-out><![CDATA[Given Navigate to login form................................................passed
+When Click login tag........................................................passed
+And Input username sim and password  to Login...............................passed
+And Click Login button......................................................passed
+Then I verify the error message Địa chỉ email không hợp lệ. and Hãy nhập dữ liệu. in step.passed
+]]></system-out>
+</testcase>
+</testsuite>

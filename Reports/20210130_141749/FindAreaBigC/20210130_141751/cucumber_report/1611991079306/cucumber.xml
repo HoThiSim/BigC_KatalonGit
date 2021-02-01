@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.904991">
+<testcase classname="FindArea" name="Mien Nam" time="18.904991">
+<system-out><![CDATA[Given Usser navigate Big C hompage mien bac.................................passed
+When Click Find Market button to display mien bac...........................passed
+And Click Mien Bac tag......................................................passed
+Then I verify Bac Giang Big C BẮC GIANG by Xã Tân Tiến, Thành Phố Bắc Giang, Tỉnh Bắc Giang and Ha Long GO! HẠ LONG by Cột 5, Phường Hồng Hải, Thành phố Hạ Long, Tỉnh Quảng Ninh and Hai Duong Big C HẢI DƯƠNG by Khu TTTM Ngọc Châu, Phường Nhị Châu, TP. Hải Dương, Tỉnh Hải Dương and Hai Phong Big C HẢI PHÒNG by Lô 1/20, Khu Đô Thị Mới Ngã Năm, Sân Bay Cát Bi, Quận Ngô Quyền, TP. Hải Phòng (Ngã Tư Lê Hồng Phong - Nguyễn Bỉnh Khiêm).passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,218 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Login Fail",
+        "description": "",
+        "id": "login;login-fail;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6003943500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to login form",
+            "match": {
+              "location": "LoginFailSteps.NavigatLoginForm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 565979400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click login tag",
+            "match": {
+              "location": "LoginFailSteps.ClickLoginTag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1351150500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Input username  and password  to Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 15
+                },
+                {
+                  "val": "",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginFailSteps.InputDataLogin(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 342165600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Login button",
+            "match": {
+              "location": "LoginFailSteps.ClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1592410200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify the error message Hãy nhập dữ liệu. and Hãy nhập dữ liệu. in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hãy nhập dữ liệu.",
+                  "offset": 27
+                },
+                {
+                  "val": "Hãy nhập dữ liệu.",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginFailSteps.VerifyErrorMessage(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Login Fail",
+        "description": "",
+        "id": "login;login-fail;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6314135500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to login form",
+            "match": {
+              "location": "LoginFailSteps.NavigatLoginForm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 672560400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click login tag",
+            "match": {
+              "location": "LoginFailSteps.ClickLoginTag()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1416272300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Input username sim and password  to Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sim",
+                  "offset": 15
+                },
+                {
+                  "val": "",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginFailSteps.InputDataLogin(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 537736200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Login button",
+            "match": {
+              "location": "LoginFailSteps.ClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1612639100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify the error message Địa chỉ email không hợp lệ. and Hãy nhập dữ liệu. in step",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Địa chỉ email không hợp lệ.",
+                  "offset": 27
+                },
+                {
+                  "val": "Hãy nhập dữ liệu.",
+                  "offset": 59
+                }
+              ],
+              "location": "LoginFailSteps.VerifyErrorMessage(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "C:/Users/PNV/git/BigC_KatalonGit/BigC_KatalonGit/BigC_KatalonGit/BigC_KatalonGit/Include/features/Login/LoginFail.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

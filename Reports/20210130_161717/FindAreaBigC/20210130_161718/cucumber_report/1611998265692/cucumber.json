@@ -1,0 +1,130 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Mien Nam",
+        "description": "",
+        "id": "findarea;mien-nam;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8771500400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Usser navigate Big C hompage mien nam",
+            "match": {
+              "location": "MienNamBigCSteps.navigatePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2552553400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Find Market button to display mien nam",
+            "match": {
+              "location": "MienNamBigCSteps.Click_FindMarket_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 891888900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Mien Nam tag",
+            "match": {
+              "location": "MienNamBigCSteps.Click_MienTrung_Tag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4277759900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify Binh Duong Big C BÌNH DƯƠNG by Phường Hiệp Thành, TP. Thủ Dầu Một, Tỉnh Bình Dương and DaLat address GO! CẦN THƠ by Lô số 1, Khu Dân Cư Hưng Phú 1, Phường Hưng Phú, Quận Cái Răng, TP. Cần Thơ and Da Lat address Big C ĐÀ LẠT by Quảng trường trung tâm Đà Lạt, Đường Trần Quốc Toản, Phường 1, Thành Phố Đà Lạt and Di An address GO! DĨ AN by Phường Đông Hòa, Thị Xã Dĩ An, Tỉnh Bình Dương and Dong Nai address Big C ĐỒNG NAI by Số 833, Xa lộ Hà Nội, Phường Long Bình Tân, Thành Phố Biên Hòa, Tỉnh Đồng Nai ( Ngã 4 Vũng Tàu)",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Big C BÌNH DƯƠNG",
+                  "offset": 20
+                },
+                {
+                  "val": "Phường Hiệp Thành, TP. Thủ Dầu Một, Tỉnh Bình Dương",
+                  "offset": 40
+                },
+                {
+                  "val": "GO! CẦN THƠ",
+                  "offset": 110
+                },
+                {
+                  "val": "Lô số 1, Khu Dân Cư Hưng Phú 1, Phường Hưng Phú, Quận Cái Răng, TP. Cần Thơ",
+                  "offset": 125
+                },
+                {
+                  "val": "Big C ĐÀ LẠT",
+                  "offset": 220
+                },
+                {
+                  "val": "Quảng trường trung tâm Đà Lạt, Đường Trần Quốc Toản, Phường 1, Thành Phố Đà Lạt",
+                  "offset": 236
+                },
+                {
+                  "val": "GO! DĨ AN",
+                  "offset": 334
+                },
+                {
+                  "val": "Phường Đông Hòa, Thị Xã Dĩ An, Tỉnh Bình Dương",
+                  "offset": 347
+                },
+                {
+                  "val": "Big C ĐỒNG NAI",
+                  "offset": 415
+                },
+                {
+                  "val": "Số 833, Xa lộ Hà Nội, Phường Long Bình Tân, Thành Phố Biên Hòa, Tỉnh Đồng Nai ( Ngã 4 Vũng Tàu)",
+                  "offset": 433
+                }
+              ],
+              "location": "MienNamBigCSteps.VerifyDataDisplay(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "FindArea",
+    "description": "  I want to use this template for my feature file",
+    "id": "findarea",
+    "keyword": "Feature",
+    "uri": "C:/Users/PNV/git/BigC_KatalonGit/BigC_KatalonGit/BigC_KatalonGit/BigC_KatalonGit/Include/features/FindAreaBigC/MienNamBigC.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
